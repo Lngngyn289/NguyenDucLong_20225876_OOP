@@ -1,0 +1,13 @@
+JAVA là ngôn ngũ lập trình Pass By Value
+
+So sánh cách dùng tham số mảng và tham số có số lượng tùy ý
+Mảng: Phải tạo mảng trước khi truyền vào
+Tùy ý: Truyền nhiều đối số, linh hoạt.
+-> Tham số với số lượng tùy ý linh hoạt hơn.
+
+Tiêu đề không thay đổi khi gọi swap
+- Vì nó chỉ truyền bản sao của tham chiếu chứ không phải Pass by references
+-> chỉ swap trong method, các tham chiếu gốc vẫn trỏ đến đối tượng ban đầu.
+
+Tiêu đề thay đổi khi gọi changeTitle
+- Tham chiếu của jungleDVD đã được truyền và phương thức. Cả bản sáo và bản gốc của tham chiếu đều trỏ đến 1 đối tượng trong bộ nhớ. Nên khi changeTitle thì sẽ thay đổi chính xác đối tượng đó trên bộ nhớ
