@@ -1,6 +1,7 @@
 package hust.soict.dsai.aims.store;
-import hust.soict.dsai.aims.disc.DigitalVideoDisc;
 import java.util.LinkedList;
+
+import hust.soict.dsai.aims.media.DigitalVideoDisc;
 public class Store {
     private LinkedList<DigitalVideoDisc> itemsInStore = new LinkedList<DigitalVideoDisc>();
     private boolean checkDVD(DigitalVideoDisc disc) {
