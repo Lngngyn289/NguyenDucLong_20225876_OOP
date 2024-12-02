@@ -1,6 +1,6 @@
-package hust.soict.dsai.aims.disc;
-
-public class DigitalVideoDisc {
+package hust.soict.dsai.aims.media;
+import hust.soict.dsai.aims.media.Media;
+public class DigitalVideoDisc extends Disc implements Playable {
 	//Attributes
 	public static int nbDigitalVideoDiscs = 0;
 	private int id;
