@@ -207,7 +207,7 @@ public class StoreScreen extends JFrame {
         DigitalVideoDisc dvd1 = new DigitalVideoDisc("Smile 2", "Horror", "Meanwhile", 100, 19.99f);
         DigitalVideoDisc dvd2 = new DigitalVideoDisc("Next time do not call me your lover till", "Lover", "Whatsupbro",
                 200, 39.99f);
-        Book book1 = new Book("My name is Hung", "Horror", 99.99f, new ArrayList<>());
+        Book book1 = new Book("My name is Long", "Horror", 99.99f, new ArrayList<>());
         Book book2 = new Book("Hedspi", "Animation", 10.99f, new ArrayList<>());
         Book book3 = new Book("Long1234", "Science", 19.99f, new ArrayList<>());
         CompactDisc cd1 = new CompactDisc("Nguyen Long", "Music", "Nigga", 199, 19.99f);
